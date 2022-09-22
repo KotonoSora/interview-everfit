@@ -1,5 +1,5 @@
 import Week from "../Week";
-import styles from './Calendar.module.css';
+import styles from "./Calendar.module.css";
 
 function Calendar() {
   return (
@@ -7,6 +7,6 @@ function Calendar() {
       <Week />
     </div>
   );
-};
+}
 
 export default Calendar;
