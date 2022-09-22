@@ -1,0 +1,40 @@
+.day {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex: 1;
+    min-width: 179px;
+}
+
+.weekday {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 14px;
+    color: #6A7988;
+    text-transform: uppercase;
+}
+
+.date {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 15px;
+    color: #728096;
+    margin-bottom: 5px;
+}
+
+.today {
+    color: #5A57CB;
+    font-weight: 700;
+}
+
+.box {
+    background: #F3F5F8;
+    mix-blend-mode: normal;
+    border-radius: 6px;
+    flex: 1;
+    padding: 10px;
+}
