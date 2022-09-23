@@ -3,9 +3,11 @@
   border: 1px solid rgba(34, 36, 38, 0.15);
   border-radius: 6px;
   margin-bottom: 5px;
+
+  cursor: pointer;
 }
 
-.title {
+.name {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 700;
@@ -20,7 +22,7 @@
   margin-right: 10px;
 }
 
-.boxTitle {
+.boxName {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -30,6 +32,9 @@
 }
 
 .btnIconMore {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
 }
 
 .boxAddExercise {
@@ -42,6 +47,9 @@
 }
 
 .btnAddExercise {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
 }
 
 .boxExercises {

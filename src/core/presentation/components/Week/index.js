@@ -1,39 +1,11 @@
 import Day from "../Day";
 import styles from "./Week.module.css";
-
-const weekdays = [
-  {
-    weekday: "MON",
-    date: "05",
-  },
-  {
-    weekday: "TUE",
-    date: "06",
-  },
-  {
-    weekday: "wed",
-    date: "07",
-  },
-  {
-    weekday: "thu",
-    date: "08",
-  },
-  {
-    weekday: "fri",
-    date: "09",
-    isToday: true,
-  },
-  {
-    weekday: "sat",
-    date: "10",
-  },
-  {
-    weekday: "sun",
-    date: "11",
-  },
-];
+import CalendarContext from "../../../application/context";
+import { useContext } from "react";
 
 function Week() {
+  const { weekdays } = useContext(CalendarContext);
+
   return (
     <div className={styles.week}>
       {weekdays.map((w, index) => (
